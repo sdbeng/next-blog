@@ -13,3 +13,5 @@ If you need to add attributes like, for example, className, add it to the a tag,
 
 To use CSS Modules, import a CSS file named *.module.css from any component.
 To use global CSS, import a CSS file in pages/_app.js.
+
+**tip** Make sure you restart the development server when you add _app.js.
