@@ -15,3 +15,7 @@ To use CSS Modules, import a CSS file named *.module.css from any component.
 To use global CSS, import a CSS file in pages/_app.js.
 
 **tip** Make sure you restart the development server when you add _app.js.
+
+## data-fetching
+### pre-rendering
+If your app is a plain React.js app (without Next.js), there’s no pre-rendering, so you won’t be able to see the app if you disable JavaScript. Instead you'll see "You need to enable JavaScript to run this app." This is because the app is not pre-rendered into static HTML.
