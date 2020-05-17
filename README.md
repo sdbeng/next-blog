@@ -8,3 +8,8 @@ This is a starter template for [Learn Next.js](https://nextjs.org/learn).
 **Note:** If you need to link to an external page outside the Next.js app, just use an <a> tag without Link.
 
 If you need to add attributes like, for example, className, add it to the a tag, not to the Link tag.
+
+## so far:
+
+To use CSS Modules, import a CSS file named *.module.css from any component.
+To use global CSS, import a CSS file in pages/_app.js.
