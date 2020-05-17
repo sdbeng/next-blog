@@ -99,7 +99,9 @@ export async function getSortedPostsData() {
   // Instead of the file system,
   // fetch post data from a database
   return databaseClient.query('SELECT posts...')
-}```
+}
+```
+
 This is possible because getStaticProps runs only on the server-side. It will never be run on the client-side. It won’t even be included in the JS bundle for the browser. That means you can write code such as direct database queries without them being sent to browsers.
 
 Development vs. Production
@@ -116,3 +118,28 @@ What If I Need to Fetch Data at Request Time?
 Static Generation is not a good idea if you cannot pre-render a page ahead of a user's request. Maybe your page shows frequently updated data, and the page content changes on every request.
 
 In cases like this, you can try Server-side Rendering or skipping pre-rendering.
+
+## Fetching Data at Request Time
+If you need to fetch data at request time instead of at build time, you can try Server-side Rendering:
+
+## Pre-rendering and Data Fetching
+### Fetching Data at Request Time
+If you need to fetch data at request time instead of at build time, you can try Server-side Rendering:
+
+## Server-side Rendering
+To use Server-side Rendering, you need to export getServerSideProps instead of getStaticProps from your page.
+
+### Using getServerSideProps
+Here’s the starter code for getServerSideProps.
+```
+export async function getServerSideProps(context) {
+  return {
+    props: {
+      // props for your component
+    }
+  }
+}
+```
+Because getServerSideProps is called at request time, its parameter (context) contains request specific parameters. Check docs.
+
+You should use **getServerSideProps** only if you need to pre-render a page whose data must be fetched at request time. Time to first byte (TTFB) will be slower than **getStaticProps** because the server must compute the result on every request, and the result cannot be cached by a CDN without extra configuration.
