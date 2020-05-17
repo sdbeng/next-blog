@@ -49,8 +49,8 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
+          Powered by{' '} Versel - made with luv by Serg
+          {/* <img src="/vercel.svg" alt="Vercel Logo" className="logo" /> */}
         </a>
       </footer>
 
