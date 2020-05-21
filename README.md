@@ -314,3 +314,8 @@ Blog Starter using markdown files (Demo)
 DatoCMS Example (Demo)
 TakeShape Example (Demo)
 Sanity Example (Demo)
+
+## deploying
+How to deploy your Next.js app to Vercel.
+The DPS Workflow: Develop, Preview, and Ship.
+How to deploy your Next.js app to your own hosting provider.
