@@ -23,7 +23,8 @@ export default function Home({ allPostsData }) {
       </Head>
       <section>
         <p>Hello, I'm Serg ⚽️</p>
-        <p>I'm a Full Stack Developer living in Concord,CA. I develop custom web and mobile apps for business and non-profit organizations. Contact me on Twitter at <span><a>sergdb_dev</a></span> </p>
+        <p>I'm a Full Stack Developer living in Concord,CA. I develop custom web and mobile apps for business and non-profit organizations. </p>
+        <p>On my free time, I like bike riding, swimming and playing chess with my son. Contact me on Twitter at <span><a>sergdb_dev</a></span> </p>
       </section>
       <section className={utilStyles.headingMd}>
 
