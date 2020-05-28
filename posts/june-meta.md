@@ -11,7 +11,7 @@ The pandemic is still uncontrolable and some people are careful while others for
 
 But we need to remember who are the ones really suffering during this crisis, the families that can't afford to pay their rent or go buy one little thing at the supermarket to keeps their kids fed or even hundreds of homeless who don't even have basics needs or a roof on their heads.
 
-After lunch, decided took 30 min break so I turned on my tv and watched an old tv series that I liked when I was a little kid, kind of makes me forget for a while.
+After lunch, decided to take 30 min break so I turned on my tv and watched an old tv series that I liked when I was a little kid, kind of makes me forget for a while.
 
 Now, it's time to go back to your pending tasks, still a couple of companies won't reply with the results of the second interview. It's okay, I learnt from having to fall and rise again and pick the ones that really matters. Your attitude its the key here. Companies will always look for golden eggs forgetting the we are simple devs that are willing to build anything from scratch.
 
