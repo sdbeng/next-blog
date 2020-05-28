@@ -24,7 +24,8 @@ export default function Home({ allPostsData }) {
       <section>
         <p>Hello, I'm Serg ⚽️</p>
         <p>I'm a Full Stack Developer living in Concord,CA. I develop custom web and mobile apps for business and non-profit organizations. </p>
-        <p>On my free time, I like bike riding, swimming and playing chess with my son. Contact me on Twitter at <span><a>sergdb_dev</a></span> </p>
+        <p>On my free time, I like bike riding, swimming and playing chess with my son. 
+        Contact me on Twitter at <span><a href="https://twitter.com/sergb_appdev">sergb_appdev</a></span> </p>
       </section>
       <section className={utilStyles.headingMd}>
 
