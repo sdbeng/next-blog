@@ -1,6 +1,6 @@
 ---
 title: 'Thinking in GraphQL'
-date: '2020-05-28'
+date: '2020-05-29'
 ---
 
 ## What is GraphQL?
