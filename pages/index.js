@@ -31,11 +31,8 @@ export default function Home({ allPostsData }) {
 
       </section>
       <section>
-        <h2 className="m-4">Blog</h2>
-      </section>
-      {/* <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
-        <ul className={utilStyles.list}>
+        <h2 className="m-4 h-5">Blog</h2>
+        <ul className="list-none">
         {
           allPostsData.map(({id, date, title}) => (
             <li className={utilStyles.listItem} key={id}>
@@ -51,6 +48,9 @@ export default function Home({ allPostsData }) {
           ))
         }
         </ul>
+      </section>
+      {/* <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+        <h2 className={utilStyles.headingLg}>Blog</h2>
       </section> */}
     </Layout>
   )
