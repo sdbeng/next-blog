@@ -21,8 +21,8 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <section>
-        <p>Hello, I'm Serg ⚽️</p>
+      <section className="p-4 shadow rounded bg-aqua">
+        <p className="text-purple-500">Hello, I'm Serg ⚽️</p>
         <p>I'm a Full Stack Developer living in Concord,CA. I develop custom web and mobile apps for business and non-profit organizations. </p>
         <p>On my free time, I like bike riding, swimming and playing chess with my son. 
         Contact me on Twitter at <span><a href="https://twitter.com/sergb_appdev">sergb_appdev</a></span> </p>
@@ -30,7 +30,10 @@ export default function Home({ allPostsData }) {
       <section className={utilStyles.headingMd}>
 
       </section>
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+      <section>
+        <h2 className="m-4">Blog</h2>
+      </section>
+      {/* <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>
         {
@@ -48,7 +51,7 @@ export default function Home({ allPostsData }) {
           ))
         }
         </ul>
-      </section>
+      </section> */}
     </Layout>
   )
 }
