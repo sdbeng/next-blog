@@ -29,7 +29,7 @@ export default function Home({ allPostsData }) {
         
       </section>
       <div>
-      <img className="mt-6 rounded-lg shadow-xl sm:mt-8 sm:h-64 sm:w-full sm:object-cover sm:object-center lg:hidden" src="/images/summer-beach.jpg" alt="on the beach" />
+      <img className="mt-6 rounded-lg shadow-xl sm:mt-8 sm:h-64 sm:w-full sm:object-cover sm:object-center lg:hidden" src="/images/summer-beach.jpg" alt="worrking from the beach" />
       </div>
 
       <section className={utilStyles.headingMd}>
