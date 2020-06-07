@@ -36,7 +36,7 @@ export default function Home({ allPostsData }) {
 
       </section>
       <section>
-        <h2 className="m-4 h-6 text-2xl text-indigo-900">Blog</h2>
+        <h2 className="m-2 h-6 pb-10 text-2xl font-bold text-indigo-700  leading-tight sm:mt-8 sm:text-4xl lg:text-3xl xl:text-4xl">Blog</h2>
         <ul className="list-none">
         {
           allPostsData.map(({id, date, title}) => (
