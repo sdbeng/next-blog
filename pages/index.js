@@ -25,7 +25,7 @@ export default function Home({ allPostsData }) {
         <p className="text-purple-500">Hello, I'm Serg ⚽️</p>
         <p>I'm a Full Stack Developer living in Concord,CA. I develop custom web and mobile apps for business and non-profit organizations. </p>
         <p>On my free time, I like bike riding, swimming and playing chess with my son. 
-        Contact me on Twitter at <span><a href="https://twitter.com/sergb_appdev">sergb_appdev</a></span> </p>
+        Contact me on Twitter at <span className="text-indigo-400" ><a href="https://twitter.com/sergb_appdev">sergb_appdev</a></span> </p>
         
       </section>
       <div>
