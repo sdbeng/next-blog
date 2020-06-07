@@ -40,7 +40,7 @@ export default function Home({ allPostsData }) {
         <ul className="list-none">
         {
           allPostsData.map(({id, date, title}) => (
-            <li className="text-lg text-indigo-500" key={id}>
+            <li className="text-lg text-indigo-500 p-3 " key={id}>
             <Link href="/posts/[id]" as={`/posts/${id}`}>
               <a>{title}</a>
             </Link>
