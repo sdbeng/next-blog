@@ -25,7 +25,7 @@ export default function Home({ allPostsData }) {
         <p className="text-purple-500">Hello, I'm Serg ⚽️</p>
         <p>I'm a Full Stack Developer living in Concord,CA. I develop custom web and mobile apps for business and non-profit organizations. </p>
         <p>On my free time, I like bike riding, swimming and playing chess with my son. 
-        Contact me on Twitter at <span><a href="https://twitter.com/sergb_appdev">sergb_appdev</a></span> </p>
+        Contact me on Twitter at <span className="text-indigo-400" ><a href="https://twitter.com/sergb_appdev">sergb_appdev</a></span> </p>
         
       </section>
       <div>
@@ -36,11 +36,11 @@ export default function Home({ allPostsData }) {
 
       </section>
       <section>
-        <h2 className="m-4 h-6 text-2xl text-indigo-900">Blog</h2>
+        <h2 className="m-2 h-6 pb-10 text-2xl font-bold text-indigo-700  leading-tight sm:mt-8 sm:text-4xl lg:text-3xl xl:text-4xl">Blog</h2>
         <ul className="list-none">
         {
           allPostsData.map(({id, date, title}) => (
-            <li className="text-lg text-indigo-500" key={id}>
+            <li className="text-lg text-indigo-500 p-3 " key={id}>
             <Link href="/posts/[id]" as={`/posts/${id}`}>
               <a>{title}</a>
             </Link>
