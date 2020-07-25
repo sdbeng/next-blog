@@ -12,6 +12,6 @@ Tech speaking, I've been building so far few full stack apps, brushing up on fro
 
 How about you? What's in your plate for the rest of 2020?
 
-I sincerely hope and this time will pass and we all look forward to be more patience with each other, have faith in each other. We'll overcome this situation.
+I sincerely hope you get the job you deserve, especially to support your family. This time will pass and we all look forward to be more patience with each other, have faith in each other, be happy with what we have and practice solidarity.We'll overcome this situation.
 
 Have a great day! Until next time!
