@@ -29,7 +29,7 @@ export default function Home({ allPostsData }) {
         
       </section>
       <div>
-      <img className="mt-6 rounded-lg shadow-xl sm:mt-8 sm:h-64 sm:w-full sm:object-cover sm:object-center lg:hidden" src="/images/summer-beach.jpg" alt="worrking from the beach" />
+      <img className="mt-6 rounded-lg shadow-xl sm:mt-8 sm:h-64 sm:w-full sm:object-cover sm:object-center lg:hidden" src="/images/summer-beach.jpg" alt="working from the beach" />
       </div>
 
       <section className={utilStyles.headingMd}>
@@ -40,7 +40,7 @@ export default function Home({ allPostsData }) {
         <ul className="list-none">
         {
           allPostsData.map(({id, date, title}) => (
-            <li className="text-lg text-indigo-500 p-3 " key={id}>
+            <li className="text-2xl text-indigo-500 p-3 " key={id}>
             <Link href="/posts/[id]" as={`/posts/${id}`}>
               <a>{title}</a>
             </Link>
