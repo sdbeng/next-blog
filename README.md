@@ -1,4 +1,9 @@
-## Summary
+## 👋 My Blog
+Welcome to my blog!! It's a brand new year and I'm very excited to be working on several projects. 
+
+Lots of improvements on my todo list - but hey! it's the life of a developer!! Happy hacking!!🧰
+
+### Some notes about nextjs
 - Next.js automatically optimizes your application for the best performance by code splitting, client-side navigation, and prefetching (in production).
 - You create routes as files under pages and use the built-in Link component. No routing libraries are required.
 
